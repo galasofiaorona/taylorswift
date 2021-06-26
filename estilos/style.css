@@ -1,0 +1,359 @@
+/*GENERAL*/
+
+body{
+    margin:0px 0px 0px 0px;
+    background-image: url(../img/redfondo.jpeg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'IM Fell DW Pica', serif;
+}
+
+main {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.seccion1 , .divpremios , .recordslista , .formulario , #pantalla3 div {
+    background-color: rgb(155, 16, 3, 0.5);
+    border-radius: 3%;
+    margin: 30px;
+    
+}
+
+.seccion1 , .divpremios , .recordslista , #pantalla3 div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+
+p {
+    color: white;
+    text-align: center;
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+nav , footer {
+    background: rgb(208,49,45);
+    background: linear-gradient(156deg, rgba(208,49,45,1) 0%, rgba(96,16,11,1) 67%);
+}
+
+/*FONDOS*/
+
+#taylorswift {
+    background-color: #177186;
+
+}
+
+#taylorswift a:hover {
+    color: #034627;
+}
+
+#fearless , #journeyfearless  {
+    background-color: #E0C081;
+}
+
+#fearless a:hover { 
+    color: #B08968;
+}
+
+#speaknow , #speaknowtour {
+    background-color: #C25B90;
+   
+}
+
+#speaknow a:hover {
+    color: purple;
+}
+
+#red {
+    background-color: #A13F4C;
+}
+
+#red a:hover {
+    color: red;
+}
+
+#cd1989 , #tour1989 {
+    background-color: #AE9497;
+}
+
+#cd1989 a:hover {
+    color: #7c5295;
+}
+
+#reputation , #reptour {
+    background-color: #7B7B7B;
+}
+
+#lover , #citylover , .ama {
+    background-color: #F0B5D1;
+
+}
+
+#lover a:hover {
+    color: #88bbe8;
+}
+
+#folklore , #longpond {
+    background-color: #949494;
+   
+}
+
+#folklore a:hover , #reputation a:hover {
+    color: black;
+}
+
+#evermore {
+    background-color: #AC5633;
+}
+
+#evermore a:hover {
+    color: orange;
+}
+
+#fearlesstv {
+    background-color: #E0C081 ;
+}
+
+
+#missamericana {
+    background-color: black;
+}
+
+
+/* HEADER */
+
+nav {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li , nav ol li {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 20px;
+}
+
+nav ul { 
+    text-align: center;
+}
+
+.socials {
+    text-align: left;
+}
+
+a:hover {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* HOME */
+
+#pantalla1 {
+    max-width: 1024px;
+}
+
+
+.biografia {
+    display: flex;
+}
+
+.biografia div p {
+    padding: 20px;
+}
+
+.seccion2 {
+    display: flex;
+    justify-content: center;
+    max-width: 900px;
+}
+
+.grammys , .ama , .bbma , .iheart {
+    width: 400px;
+    text-align: center;
+}
+
+.bbma {
+    background-color: white;
+}
+
+.divpremios {
+    margin-top: 30px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 50px;
+}
+
+.div2 h4 {
+    position: relative;
+    top: 25%;
+}
+
+.div2 {
+    width: 200px;
+    height: 100px;
+    background-color:rgb(0,0,0,0.5);
+    position: relative;
+    top: -10%;
+    left: 20%;
+}
+
+.grammys {
+    background-color: #D9AF62;
+}
+
+.records li {
+    color: white;
+}
+
+#pantalla1 .divpremios p {
+color: black;
+}
+
+
+
+
+/* DISCOGRAFIA */
+
+#pantalla2 h2 { 
+    font-size: 30px;
+    padding: 20px;
+
+}
+
+.secciondiscos > div {
+    margin: 0 auto;
+    display: flex;
+}
+
+.block {
+    display: block;
+    margin: 0 auto;
+}
+
+.block > * {
+    margin: 0 auto;
+}
+
+.block ol {
+    column-count: 2;
+}
+
+.block p {
+    padding: 20px;
+    color: white;
+}
+
+.videografia div iframe {
+    width: 560px; 
+    height: 315px;
+}
+
+
+.banner {
+    width: 1000px;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+iframe {
+    display: block;
+    padding: 20px;
+    width: 600px;
+    height: 80px;
+    border: none;
+}
+
+.seccionvideos .videografia iframe {
+    width: 450px;
+}
+
+.videografia > div {
+    display: flex;
+}
+
+
+/* NOTICIAS */
+
+#pantalla3 div {
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+}
+
+
+/* SUSCRIBITE */
+
+
+
+form > * {
+    display: block;
+}
+
+form {
+    margin: 0 auto;
+    vertical-align: middle;
+    column-count: 2;
+    padding: 20px;
+}
+
+input , select {
+    margin: 0 auto;
+}
+
+label {
+    margin: 10px;
+    color: white;
+}
+
+.formdiv {
+    width: 100%;
+    text-align: center;
+    padding: 45px;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    color: white;
+}
+
+/* FOOTER */
+
+footer {
+    padding: 70px;
+    margin-top: 40px;   
+}
